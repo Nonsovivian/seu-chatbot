@@ -1,0 +1,40 @@
+{"id": "Q01", "question": "What is the deadline for CW01?", "category": "deadlines"}
+{"id": "Q02", "question": "What is the deadline for CW02?", "category": "deadlines"}
+{"id": "Q03", "question": "What time on the deadline day must I submit by?", "category": "deadlines"}
+{"id": "Q04", "question": "What happens if I miss the CW01 deadline?", "category": "late_policy"}
+{"id": "Q05", "question": "What is the late submission penalty per day?", "category": "late_policy"}
+{"id": "Q06", "question": "Can I get an extension for CW01?", "category": "late_policy"}
+{"id": "Q07", "question": "How do I apply for an extension?", "category": "late_policy"}
+{"id": "Q08", "question": "What evidence do I need for an extension request?", "category": "late_policy"}
+{"id": "Q09", "question": "What file format must I submit for CW01?", "category": "submission"}
+{"id": "Q10", "question": "Where do I submit CW01?", "category": "submission"}
+{"id": "Q11", "question": "What is the file naming format for CW01?", "category": "submission"}
+{"id": "Q12", "question": "What is the maximum file size for submission?", "category": "submission"}
+{"id": "Q13", "question": "What is the word count limit for CW01?", "category": "assessment"}
+{"id": "Q14", "question": "What percentage of the module is CW01 worth?", "category": "assessment"}
+{"id": "Q15", "question": "What percentage of the module is CW02 worth?", "category": "assessment"}
+{"id": "Q16", "question": "What are the marking criteria for CW01?", "category": "assessment"}
+{"id": "Q17", "question": "How is the group project assessed?", "category": "assessment"}
+{"id": "Q18", "question": "What is the Turnitin similarity score limit?", "category": "assessment"}
+{"id": "Q19", "question": "What happens if my Turnitin score is too high?", "category": "assessment"}
+{"id": "Q20", "question": "Who is the module leader for CSC302?", "category": "contacts"}
+{"id": "Q21", "question": "What is the lecturer email address?", "category": "contacts"}
+{"id": "Q22", "question": "When are office hours for CSC302?", "category": "contacts"}
+{"id": "Q23", "question": "Who do I contact for an extension request?", "category": "contacts"}
+{"id": "Q24", "question": "What topics are covered in CSC302?", "category": "module_content"}
+{"id": "Q25", "question": "What are the recommended textbooks for CSC302?", "category": "module_content"}
+{"id": "Q26", "question": "How many lectures are there per week?", "category": "module_content"}
+{"id": "Q27", "question": "Is there an exam for CSC302?", "category": "module_content"}
+{"id": "Q28", "question": "What programming language is used in CSC302?", "category": "module_content"}
+{"id": "Q29", "question": "When does the teaching term end?", "category": "calendar"}
+{"id": "Q30", "question": "When is the feedback return date for CW01?", "category": "calendar"}
+{"id": "Q31", "question": "Are there any public holidays that affect submission dates?", "category": "calendar"}
+{"id": "Q32", "question": "What is the group size for CW02?", "category": "assessment"}
+{"id": "Q33", "question": "Can I work alone on CW02?", "category": "assessment"}
+{"id": "Q34", "question": "What referencing style is required for CW01?", "category": "assessment"}
+{"id": "Q35", "question": "Is a title page required for CW01?", "category": "submission"}
+{"id": "Q36", "question": "Can I resubmit after the deadline?", "category": "late_policy"}
+{"id": "Q37", "question": "What grade do I need to pass CSC302?", "category": "assessment"}
+{"id": "Q38", "question": "What is academic misconduct and how does it affect my grade?", "category": "policies"}
+{"id": "Q39", "question": "Where can I find the module handbook?", "category": "module_content"}
+{"id": "Q40", "question": "What support is available if I am struggling with the module?", "category": "contacts"}
