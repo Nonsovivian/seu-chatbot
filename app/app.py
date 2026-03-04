@@ -66,6 +66,14 @@ header[data-testid="stHeader"]{{background:transparent;height:0;}}
 .hero-title{{font-family:'Playfair Display',serif;font-size:44px;font-weight:700;color:white;line-height:1.15;margin:0 0 14px 0;}}
 .hero-title span{{color:var(--gold);}}
 .hero-sub{{font-size:15px;color:rgba(255,255,255,0.78);line-height:1.65;font-weight:300;}}
+@media(max-width:768px){{
+.seu-hero{{padding:24px 20px 0 20px;min-height:200px;}}
+.hero-title{{font-size:20px !important;margin:0 0 8px 0;}}
+.hero-eyebrow{{font-size:10px;}}
+.hero-sub{{font-size:12px;}}
+.seu-topbar{{padding:0 16px;height:56px;}}
+.main-content{{padding:16px 16px 60px 16px;}}
+}}
 .main-content{{margin-top:72px;padding:24px 40px 80px 40px;max-width:900px;}}
 .disclaimer{{background:#fffbeb;border:1px solid #fde68a;border-left:4px solid var(--gold);border-radius:8px;padding:10px 16px;font-size:13px;color:#78350f;margin-bottom:20px;line-height:1.6;}}
 .source-tag{{display:inline-block;background:#eef2fb;border:1px solid #c7d4f0;border-radius:20px;padding:4px 12px;font-size:12px;color:var(--navy);margin-top:8px;font-weight:500;}}
