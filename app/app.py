@@ -1,14 +1,15 @@
 import os
+import nltk
+os.makedirs("/tmp/nltk_data", exist_ok=True)
+nltk.data.path.insert(0, "/tmp/nltk_data")
+nltk.download("punkt_tab", download_dir="/tmp/nltk_data", quiet=True)
+nltk.download("averaged_perceptron_tagger_eng", download_dir="/tmp/nltk_data", quiet=True)
+nltk.download("punkt", download_dir="/tmp/nltk_data", quiet=True)
 import json
 import datetime
 import base64
 from pathlib import Path
 from dotenv import load_dotenv
-import nltk
-os.makedirs("/tmp/nltk_data", exist_ok=True)
-nltk.data.path.append("/tmp/nltk_data")
-nltk.download("punkt_tab", download_dir="/tmp/nltk_data", quiet=True)
-nltk.download("averaged_perceptron_tagger_eng", download_dir="/tmp/nltk_data", quiet=True)
 import streamlit as st
 from llama_index.core import StorageContext, load_index_from_storage, Settings
 from llama_index.llms.openai import OpenAI
