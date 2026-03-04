@@ -67,12 +67,14 @@ header[data-testid="stHeader"]{{background:transparent;height:0;}}
 .hero-title span{{color:var(--gold);}}
 .hero-sub{{font-size:15px;color:rgba(255,255,255,0.78);line-height:1.65;font-weight:300;}}
 @media(max-width:768px){{
-.seu-hero{{padding:24px 20px 0 20px;min-height:200px;}}
-.hero-title{{font-size:20px !important;margin:0 0 8px 0;}}
-.hero-eyebrow{{font-size:10px;}}
-.hero-sub{{font-size:12px;}}
-.seu-topbar{{padding:0 16px;height:56px;}}
-.main-content{{padding:16px 16px 60px 16px;}}
+.seu-hero{{padding:20px 16px 0 16px;min-height:160px;flex-direction:column;align-items:flex-start;}}
+.hero-title{{font-size:24px !important;line-height:1.2 !important;margin:0 0 8px 0;word-break:normal;}}
+.hero-eyebrow{{font-size:9px;letter-spacing:1px;margin-bottom:6px;}}
+.hero-sub{{font-size:12px;line-height:1.4;}}
+.seu-topbar{{padding:0 12px;height:52px;}}
+.seu-topbar img{{height:36px !important;}}
+.main-content{{padding:12px 12px 60px 12px;margin-top:52px;}}
+.hero-text{{max-width:100%;padding-bottom:16px;}}
 }}
 .main-content{{margin-top:72px;padding:24px 40px 80px 40px;max-width:900px;}}
 .disclaimer{{background:#fffbeb;border:1px solid #fde68a;border-left:4px solid var(--gold);border-radius:8px;padding:10px 16px;font-size:13px;color:#78350f;margin-bottom:20px;line-height:1.6;}}
