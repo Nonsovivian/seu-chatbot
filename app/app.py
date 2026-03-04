@@ -1,10 +1,13 @@
 import os
-import nltk
+os.environ["NLTK_DATA"] = "/tmp/nltk_data"
 os.makedirs("/tmp/nltk_data", exist_ok=True)
+import nltk
 nltk.data.path.insert(0, "/tmp/nltk_data")
-nltk.download("punkt_tab", download_dir="/tmp/nltk_data", quiet=True)
-nltk.download("averaged_perceptron_tagger_eng", download_dir="/tmp/nltk_data", quiet=True)
-nltk.download("punkt", download_dir="/tmp/nltk_data", quiet=True)
+for pkg in ["punkt", "punkt_tab", "averaged_perceptron_tagger", "averaged_perceptron_tagger_eng"]:
+    try:
+        nltk.download(pkg, download_dir="/tmp/nltk_data", quiet=True)
+    except Exception:
+        pass
 import json
 import datetime
 import base64
